@@ -1,0 +1,8 @@
+Proxy vs Decorator
+
+Proxy provides an identical interface while Decorator provides an enhanced interface
+  Proxy don't need to rewrite any code
+  Decorator can provide new fields or new methods
+  
+Proxy can mask an object (based on an interface) without a materialized target object
+while Decorator aggregates a predefined object

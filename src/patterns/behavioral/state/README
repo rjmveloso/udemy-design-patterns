@@ -1,0 +1,9 @@
+On State Pattern by GoF, each state is a class, but the class could not have any behavior.
+Nowadays, this is done differently, and can be used for example with enums.
+
+states and events/triggers
+define:
+ - state entry/exit behaviors
+ - guard conditions enabling/disabling a transition
+ - action when no transition are found for an event
+ - action when a particular event causes a transition
